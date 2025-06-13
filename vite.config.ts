@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/gravity-simulation/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/cosmic-noise-as-black-matter/' : '/',
   // server: {
   //   https: {
   //     key: readFileSync('./api/src/cert/key.pem'),
