@@ -1,5 +1,5 @@
 import { createNoise3D } from 'simplex-noise';
-import { Noise } from 'noisejs';
+import Noise from 'noisejs';
 
 export interface CosmicNoiseOptions {
   size: number;
